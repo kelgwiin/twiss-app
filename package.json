@@ -1,0 +1,28 @@
+{
+  "name": "rss-twitter",
+  "version": "1.0.0",
+  "description": "Get rss Info, save into Mongodb, and publish to twitter",
+  "main": "app-rss.js",
+  "dependencies": {
+    "feed-read": "0.0.1",
+    "feed-read-parser": "0.0.6",
+    "goo.gl": "^0.1.4",
+    "iconv-lite": "^0.4.15",
+    "mongodb": "^2.2.11",
+    "node-schedule": "^1.2.0",
+    "q": "~1.0.1",
+    "twitter": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rss",
+    "js",
+    "mongodb",
+    "twitter",
+    "goo.gl"
+  ],
+  "author": "Kelwin Gamez <kelgwiin@gmail.com> ",
+  "license": "ISC"
+}

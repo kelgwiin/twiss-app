@@ -1,0 +1,30 @@
+{    
+    "debugMode": true,
+    "mongodb":{
+        "url":"url_db"
+    },
+    "scheduler":{
+        "deletePost":"00 13 * * *",
+        "getRSSPost":"*/5 * * * *",
+        "postRSS": "*/10 * * * *"
+    },
+    "checkAllRSSItems":false,
+    "RSSIntervalMinutes":30,
+    "twitter":{
+        "startSizeTweet":0,
+        "endSizeTweet":139,
+        "shortLinkSize":21,
+        "consumer_key": "keynumber",
+        "consumer_secret": "number_secret",
+        "access_token_key": "number_token",
+        "access_token_secret": "number_access_token"
+    },
+    "google":{
+        "googlAPIKey":"number_acces_key"
+    },
+    "bitly":{
+        "client_id":"number_cliend_id",
+        "client_secret":"number_client_secret",
+        "access_token":"number_access_token2"
+    }
+}
